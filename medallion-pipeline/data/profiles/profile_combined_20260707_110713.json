@@ -1,0 +1,331 @@
+{
+  "files": [
+    "C:\\Users\\busaikrishna\\Desktop\\IDAMP\\data\\landing\\products.csv",
+    "C:\\Users\\busaikrishna\\Desktop\\IDAMP\\data\\landing\\sales_data.csv",
+    "C:\\Users\\busaikrishna\\Desktop\\IDAMP\\data\\landing\\stores.csv"
+  ],
+  "datasets": {
+    "products": {
+      "file": "C:\\Users\\busaikrishna\\Desktop\\IDAMP\\data\\landing\\products.csv",
+      "shape": {
+        "rows": 6,
+        "columns": 4
+      },
+      "columns": {
+        "product_id": {
+          "dtype": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 6,
+          "sample_values": [
+            "P001",
+            "P002",
+            "P007",
+            "P008",
+            "P009"
+          ]
+        },
+        "product_name": {
+          "dtype": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 6,
+          "sample_values": [
+            "iPhone 15",
+            "Samsung Galaxy S24",
+            "Patagonia Fleece",
+            "Champion Hoodie",
+            "Instant Pot Duo"
+          ]
+        },
+        "category": {
+          "dtype": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 3,
+          "sample_values": [
+            "Electronics",
+            "Electronics",
+            "Apparel",
+            "Apparel",
+            "Home & Kitchen"
+          ]
+        },
+        "standard_price": {
+          "dtype": "float64",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 6,
+          "min": 49.99,
+          "max": 999.99,
+          "mean": 414.98999999999995
+        }
+      }
+    },
+    "sales_data": {
+      "file": "C:\\Users\\busaikrishna\\Desktop\\IDAMP\\data\\landing\\sales_data.csv",
+      "shape": {
+        "rows": 5,
+        "columns": 11
+      },
+      "columns": {
+        "transaction_id": {
+          "dtype": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 5,
+          "sample_values": [
+            "TXN10046",
+            "TXN10124",
+            "TXN10037",
+            "RET10005",
+            "TXN10023"
+          ]
+        },
+        "transaction_date": {
+          "dtype": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 5,
+          "sample_values": [
+            "1/15/2024",
+            "2/25/2024",
+            "3/5/2024",
+            "1/4/2024",
+            "2/22/2024"
+          ]
+        },
+        "store_id": {
+          "dtype": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 4,
+          "sample_values": [
+            "S03",
+            "S04",
+            "S02",
+            "S01",
+            "S02"
+          ]
+        },
+        "product_id": {
+          "dtype": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 5,
+          "sample_values": [
+            "P001",
+            "P002",
+            "P010",
+            "P007",
+            "P008"
+          ]
+        },
+        "product_name": {
+          "dtype": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 5,
+          "sample_values": [
+            "iPhone 15",
+            "Samsung Galaxy S24",
+            "KitchenAid Mixer",
+            "Patagonia Fleece",
+            "Champion Hoodie"
+          ]
+        },
+        "category": {
+          "dtype": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 4,
+          "sample_values": [
+            "Electronics",
+            "Elec.",
+            "Home & Kitchen",
+            "Apparel",
+            "Apparel"
+          ]
+        },
+        "quantity": {
+          "dtype": "int64",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 5,
+          "min": -2.0,
+          "max": 8.0,
+          "mean": 3.4
+        },
+        "unit_price": {
+          "dtype": "float64",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 5,
+          "min": 50.1,
+          "max": 1034.37,
+          "mean": 496.79599999999994
+        },
+        "total_amount": {
+          "dtype": "float64",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 5,
+          "min": -315.86,
+          "max": 7240.59,
+          "mean": 3038.0640000000003
+        },
+        "customer_segment": {
+          "dtype": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 5,
+          "sample_values": [
+            "Loyal",
+            "Prem",
+            "Budget",
+            "Premium",
+            "Standard"
+          ]
+        },
+        "payment_method": {
+          "dtype": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 2,
+          "sample_values": [
+            "Apple Pay",
+            "Debit Card",
+            "Debit Card",
+            "Debit Card",
+            "Debit Card"
+          ]
+        }
+      }
+    },
+    "stores": {
+      "file": "C:\\Users\\busaikrishna\\Desktop\\IDAMP\\data\\landing\\stores.csv",
+      "shape": {
+        "rows": 4,
+        "columns": 5
+      },
+      "columns": {
+        "store_id": {
+          "dtype": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 4,
+          "sample_values": [
+            "S01",
+            "S02",
+            "S03",
+            "S04"
+          ]
+        },
+        "store_name": {
+          "dtype": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 4,
+          "sample_values": [
+            "Windy City Center",
+            "Motor City Plaza",
+            "Gateway West",
+            "Bay Area Hub"
+          ]
+        },
+        "region": {
+          "dtype": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 2,
+          "sample_values": [
+            "Midwest",
+            "Midwest",
+            "West",
+            "West"
+          ]
+        },
+        "city": {
+          "dtype": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 4,
+          "sample_values": [
+            "Chicago",
+            "Detroit",
+            "Los Angeles",
+            "San Francisco"
+          ]
+        },
+        "state": {
+          "dtype": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 3,
+          "sample_values": [
+            "IL",
+            "MI",
+            "CA",
+            "CA"
+          ]
+        }
+      }
+    }
+  },
+  "analysis": {
+    "semantic_meanings": {
+      "products": {
+        "product_id": "unique product identifier",
+        "product_name": "name of the product",
+        "category": "product category",
+        "standard_price": "standard retail price of the product"
+      },
+      "sales_data": {
+        "transaction_id": "unique transaction identifier",
+        "transaction_date": "date of the transaction",
+        "store_id": "identifier of the store where transaction occurred",
+        "product_id": "identifier of the product sold",
+        "product_name": "name of the product sold",
+        "category": "category of the product sold (note: inconsistent naming)",
+        "quantity": "number of units sold (can be negative for returns)",
+        "unit_price": "price per unit in the transaction",
+        "total_amount": "total transaction amount (can be negative for returns)",
+        "customer_segment": "customer segment classification",
+        "payment_method": "method of payment used"
+      },
+      "stores": {
+        "store_id": "unique store identifier",
+        "store_name": "name of the store",
+        "region": "geographic region of the store",
+        "city": "city where the store is located",
+        "state": "state where the store is located"
+      }
+    },
+    "join_keys": [
+      {
+        "left_dataset": "sales_data",
+        "left_column": "product_id",
+        "right_dataset": "products",
+        "right_column": "product_id",
+        "confidence": "high"
+      },
+      {
+        "left_dataset": "sales_data",
+        "left_column": "store_id",
+        "right_dataset": "stores",
+        "right_column": "store_id",
+        "confidence": "high"
+      }
+    ],
+    "quality_notes": [
+      "No null values found in any columns across all datasets.",
+      "Category column in sales_data has inconsistent naming (e.g., 'Electronics' vs 'Elec.').",
+      "Quantity and total_amount in sales_data contain negative values indicating returns or corrections.",
+      "Store_id in sales_data includes an ID (S04) that exists in stores dataset, ensuring join completeness.",
+      "Customer_segment and payment_method in sales_data have low cardinality but no missing values.",
+      "Products dataset has a small number of rows (6) which may limit product diversity coverage.",
+      "Sales_data dataset has only 5 rows, which is a small sample for profiling but consistent with other files.",
+      "Stores dataset has 4 rows with unique store_id values, suitable for store dimension reference."
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "agent": "profiler",
+    "run_id": "test-run",
+    "started_at": "2026-07-04T13:19:09.179525+00:00",
+    "input": {
+      "file_paths": [
+        "C:\\Users\\busaikrishna\\AppData\\Local\\Temp\\pytest-of-busaikrishna\\pytest-21\\test_profile_dataset_creates_j0\\test.csv"
+      ]
+    },
+    "plan": "",
+    "tool_calls": [],
+    "reasoning_steps": [],
+    "output": {},
+    "duration_seconds": 0.143,
+    "status": "failed",
+    "error": "Unsupported message type: <class 'unittest.mock.MagicMock'>\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/MESSAGE_COERCION_FAILURE "
+  },
+  {
+    "agent": "profiler",
+    "run_id": "test-run",
+    "started_at": "2026-07-04T13:19:10.875218+00:00",
+    "input": {
+      "file_paths": [
+        "C:\\Users\\busaikrishna\\AppData\\Local\\Temp\\pytest-of-busaikrishna\\pytest-21\\test_profile_multiple_datasets0\\sales.csv",
+        "C:\\Users\\busaikrishna\\AppData\\Local\\Temp\\pytest-of-busaikrishna\\pytest-21\\test_profile_multiple_datasets0\\products.csv"
+      ]
+    },
+    "plan": "",
+    "tool_calls": [],
+    "reasoning_steps": [],
+    "output": {},
+    "duration_seconds": 0.016,
+    "status": "failed",
+    "error": "Unsupported message type: <class 'unittest.mock.MagicMock'>\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/MESSAGE_COERCION_FAILURE "
+  },
+  {
+    "agent": "profiler",
+    "run_id": "test-run",
+    "started_at": "2026-07-04T14:05:10.909156+00:00",
+    "input": {
+      "file_paths": [
+        "C:\\Users\\busaikrishna\\AppData\\Local\\Temp\\pytest-of-busaikrishna\\pytest-22\\test_profile_dataset_creates_j0\\test.csv"
+      ]
+    },
+    "plan": "",
+    "tool_calls": [],
+    "reasoning_steps": [],
+    "output": {
+      "profile_path": "C:\\Users\\busaikrishna\\AppData\\Local\\Temp\\pytest-of-busaikrishna\\pytest-22\\test_profile_dataset_creates_j0\\profile_combined_20260704_193510.json"
+    },
+    "duration_seconds": 0.08,
+    "status": "success"
+  },
+  {
+    "agent": "profiler",
+    "run_id": "test-run",
+    "started_at": "2026-07-04T14:05:11.059371+00:00",
+    "input": {
+      "file_paths": [
+        "C:\\Users\\busaikrishna\\AppData\\Local\\Temp\\pytest-of-busaikrishna\\pytest-22\\test_profile_multiple_datasets0\\sales.csv",
+        "C:\\Users\\busaikrishna\\AppData\\Local\\Temp\\pytest-of-busaikrishna\\pytest-22\\test_profile_multiple_datasets0\\products.csv"
+      ]
+    },
+    "plan": "",
+    "tool_calls": [],
+    "reasoning_steps": [],
+    "output": {
+      "profile_path": "C:\\Users\\busaikrishna\\AppData\\Local\\Temp\\pytest-of-busaikrishna\\pytest-22\\test_profile_multiple_datasets0\\profile_combined_20260704_193511.json"
+    },
+    "duration_seconds": 0.07,
+    "status": "success"
+  }
+]
